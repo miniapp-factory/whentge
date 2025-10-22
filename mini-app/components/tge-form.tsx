@@ -115,7 +115,7 @@ export function TGEForm() {
         Evaluate Readiness
       </Button>
       {result && (
-        <Alert variant={result.startsWith("✅") ? "success" : "destructive"}>
+        <Alert variant={result.startsWith("✅") ? "default" : "destructive"}>
           <AlertTitle>{result.startsWith("✅") ? "Success" : "Warning"}</AlertTitle>
           <AlertDescription>{result}</AlertDescription>
         </Alert>
