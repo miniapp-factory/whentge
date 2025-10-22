@@ -30,6 +30,10 @@ const pages = [
     ),
     href: "/",
   },
+  {
+    label: <span className="text-lg">TGE Planner</span>,
+    href: "/tge",
+  },
 ];
 
 export function Header() {
